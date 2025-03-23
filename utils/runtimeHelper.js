@@ -13,7 +13,7 @@ async function checkJobStatus(runtime_job_id, runtimeToken) {
       const mlResponse = await axios.get(mlUrl, {
         params: {
           space_id: process.env.SPACE_ID,
-          deployment_id: '4c0bafa5-373f-47c9-b026-343c40399ea0',
+          deployment_id: 'bdf299f5-72fa-4306-9f88-57081437ece2',
           version: '2020-09-01'
         },
         headers: {
